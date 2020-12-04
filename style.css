@@ -1,0 +1,66 @@
+* {
+	font-family: 'Architects Daughter', cursive;
+	overflow: hidden;
+}
+
+body {
+	background: url(assets/alena-aenami-stay-1k.jpg);
+	background-size: cover;
+}
+
+
+h2 {
+    
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    font-size: 100px;
+    color: white;
+}
+
+#connection {
+	left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+  text-align: center;
+  color: white;
+
+}
+
+img:hover {
+	transform: translateY(-5px);
+}
+
+img {
+	transition-duration: 0.2s;
+}
+
+#button{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#msg{
+	margin: 5px;
+	color: white;
+}
